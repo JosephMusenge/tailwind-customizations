@@ -55,7 +55,3 @@ const configurations  =  {
 }
  
 buildTailwindConfig();
-
-console.log('====================================');
-console.log('will you change ing  git?');
-console.log('====================================');
