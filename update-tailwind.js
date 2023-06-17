@@ -57,5 +57,5 @@ const configurations  =  {
 buildTailwindConfig();
 
 console.log('====================================');
-console.log('lets test a push to git');
+console.log('will you change ing  git?');
 console.log('====================================');
