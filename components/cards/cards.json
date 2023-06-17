@@ -1,0 +1,12 @@
+[
+    {
+      ".card": {
+        "width": "90%",
+        "position": "relative",
+        "border-radius": "6px",
+        "overflow": "hidden",
+        "box-shadow": "0 0 10px rgb(0 0 0 / 17%)"
+      }
+    
+    }
+]

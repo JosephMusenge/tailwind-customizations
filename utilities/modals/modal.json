@@ -1,0 +1,78 @@
+[
+  {
+    ".modal": {
+      "position": "fixed",
+      "top": 0,
+      "left": 0,
+      "width": "100%",
+      "height": "100%",
+      "z-index": 9999999999,
+      "display": "flex",
+      
+      "justify-content": "center",
+      "align-items": "center",
+      "background": "rgba(0, 0, 0, 0.6)",
+   
+      "@apply flex-col off-screen transition duration-500": {}
+    },
+    ".modal.open-modal": {
+     "@apply on-screen": {}
+    },
+
+    ".modal__content": {
+      "width": "50%",
+
+      "min-width": "325px",
+      "color": "#fff",
+      "border": "1px solid #fff",
+      "@apply bg-gradient-to-br from-app-primary  to-app-secondary": {}
+    },
+
+    ".modal__header": {
+      "display": "flex",
+      "justify-content": "space-between",
+
+      "align-items": "center",
+      "background": "#fff",
+
+      "padding": "0 2rem",
+
+      "@apply text-app-primary": {}
+    },
+
+    ".modal__title": {
+      "font-size": "1.5rem",
+      "font-weight": "bold",
+      "@apply text-app-primary": {}
+    },
+
+    ".modal__close": {
+      "cursor": "pointer",
+      "font-size": "clamp(.75rem, 2vw, 1.125rem)",
+      "border-radius": "50%",
+      "height": "clamp(1.25rem, 2vw, 2rem)",
+      "width": "clamp(1.25rem, 2vw, 2rem)",
+      "@apply text-app-primary/50 border border-solid border-app-primary/50 transition duration-500 hover:bg-app-secondary hover:border-app-primary hover:text-white": {}
+    },
+
+    ".modal__body": {
+      "display": "flex",
+      "justifyContent": "center",
+      "alignItems": "center",
+       
+      "margin": "0 auto",
+      "min-height": "200px",
+      "@apply text-lg text-center flex-1": {}
+    },
+
+    ".modal__footer": {
+      "display": "flex",
+      "justify-content": "flex-end",
+      "align-items": "center",
+
+      "padding": "0 1rem",
+      "@apply text-white bg-app-primary border-0 border-t border-solid border-white": {}
+    }
+  }
+
+]

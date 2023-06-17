@@ -1,0 +1,12 @@
+[
+  {
+    ".app-text": {
+      "font-family": "'Lato', sans-serif"
+    }
+  },
+  {
+    ".app-second-text": {
+      "color": "gold"
+    }
+  }
+]

@@ -1,0 +1,8 @@
+[{
+  ".off-screen": {
+    "transform": "translateX(-100vw)"
+  },
+  ".on-screen": {
+    "transform": "translateX(0)"
+  }
+}]
