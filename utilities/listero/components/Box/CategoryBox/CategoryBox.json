@@ -1,0 +1,20 @@
+[
+  {
+    ".listeo-category-box": {
+      "@apply w-3/12 max-w-[200px] min-w-[175px] aspect-[1/1] flex justify-center items-center flex-col shadow-[0px_0px_5px_2px_#0000001c] rounded-[13px]": {},
+      "background": "#f8f8f8",
+      "@apply text-app-primary hover:bg-app-primary hover:-translate-y-4 hover:text-white cursor-pointer transition-medium": {},
+      "@apply hover:scale-105": {},
+      "&:hover span.listeo-category-count": {
+        "@apply bg-white text-app-primary transition-medium": {}
+      },
+      "span.listeo-category-count": {
+        "@apply px-4 py-1 rounded-2xl": {},
+        "background": "#cfcdcd"
+      },
+      ".listeo-category-content": {
+        "@apply flex flex-col text-center": {}
+      }
+    }
+  }
+]

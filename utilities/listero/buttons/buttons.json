@@ -1,0 +1,54 @@
+[
+  {
+    ".listeo-pill-button": {
+      "border": 0,
+      "outline": 0,
+      "@apply px-8 py-3 rounded-full   text-white cursor-pointer transition-quick": {}
+    }
+  },
+  {
+    ".listeo-pill-button-lg": {
+      "border": 0,
+      "outline": 0,
+      "@apply px-12 py-4 rounded-full text-lg   text-white cursor-pointer transition-quick": {}
+    }
+  },
+  {
+    ".listeo-pill-button-sm": {
+      "border": 0,
+      "outline": 0,
+      "@apply px-8 py-2 rounded-full text-sm   text-white cursor-pointer transition-quick": {}
+    }
+  },
+  {
+    ".listeo-pill-button-secondary": {
+      "@apply bg-app-secondary hover:bg-app-primary": {}
+    }
+  },
+
+  {
+    ".listeo-pill-button-primary": {
+      "@apply bg-app-primary hover:bg-app-primary-light": {}
+    }
+
+  }, 
+ 
+  {
+    ".listeo-pill-button-silver": {
+      "@apply  bg-app-light hover:bg-app-primary": {}
+    }
+  }, 
+ 
+  {
+    ".listeo-pill-button-white": {
+      "@apply bg-white  text-app-primary hover:bg-app-primary hover:text-white": {}
+    }
+  }, 
+ 
+  {
+    ".listeo-pill-button-transparent": {
+      "@apply bg-white/20 transition-quick border-0    text-white hover:bg-app-primary hover:text-white": {}
+    }
+  }
+  
+]

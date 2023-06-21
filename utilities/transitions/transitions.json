@@ -1,0 +1,30 @@
+[
+  {
+    ".transition-quick": {
+      "transition": "all 0.3s ease-in-out"
+    }
+  },
+
+  {
+    ".transition-medium": {
+      "transition": "all 0.5s ease-in-out"
+    }
+  },
+
+  {
+    ".transition-slow": {
+      "transition": "all 0.8s ease-in-out"
+    }
+  },
+ 
+ {
+    ".transition-slowest": {
+      "transition": "all 1s ease-in-out"
+    }
+ }, 
+  {
+    ".transition-animation": {
+      "transition": "all 10s linear"
+    }
+  }
+]

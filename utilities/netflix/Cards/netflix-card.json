@@ -1,0 +1,29 @@
+[
+{
+  ".netflix-card": {
+    "@apply relative" : {},
+    "height": "400px",
+    "flex": ".75",
+    "@apply overflow-hidden transition-medium cursor-pointer" : {},
+    ".netflix-card__content": {
+      "opacity": "0",
+      "@apply content-overlay auto-center flex-col text-white bg-black/50 px-16 gap-8 transition-slow" : {},
+      "p": {
+        "line-height": "2rem"
+      }
+    },
+    "&.active": {
+      "@apply flex-[6]" : {},
+      "img": {
+        "@apply scale-125 transition-animation" : {}
+      },
+      ".netflix-card__content": {
+        "@apply opacity-100" : {}
+      }
+    }
+  },
+  ".netflix-icon": {
+    "@apply text-app-primary border-app-primary border-t border-t-white border-b border-solid shadow-md hover:bg-app-primary hover:text-white transition-quick hover:border hover:border-white" : {}
+  }
+}
+]

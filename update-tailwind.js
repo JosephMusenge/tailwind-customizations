@@ -1,5 +1,6 @@
 const fs = require('fs');
- const find_files_recursively = require('../utilities/find_files_recursively');
+const find_files_recursively = require('../utilities/FS/find_files_recursively');
+
  
  function buildTailwindConfig() {
    let dirname = process.cwd(); 
@@ -55,3 +56,7 @@ const configurations  =  {
 }
  
 buildTailwindConfig();
+
+console.log('====================================');
+console.log('chase tailwind config updated');
+console.log('====================================');

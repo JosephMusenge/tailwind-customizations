@@ -1,0 +1,150 @@
+[
+  {
+    ".listeo-listing-card": {
+      "@apply max-w-[380px] aspect-[1/1] shadow-[0_0_8px_0_rgba(0,0,0,0.08)] flex flex-col w-6/12 min-w-[300px] rounded-[5px]": {},
+      "@apply transition duration-500 hover:-translate-y-4 hover:shadow-[0_0_16px_0_rgba(0,0,0,0.28)]": {},
+      ".listeo-listing-card__header": {
+        "height": "85%",
+        "position": "relative"
+      },
+      ".listeo-listing-card__content": {
+        "position": "relative",
+        "z-index": "5",
+        "height": "100%",
+        "background": "linear-gradient(to top, black, transparent 70%)",
+        "color": "#fff",
+        "display": "flex",
+        "flex-direction": "column",
+        "justify-content": "space-between",
+        "padding": "1rem",
+        ".listeo-listing-card__content__features": {
+          "display": "flex",
+          "flex-wrap": "wrap",
+          "gap": ".5rem"
+        },
+        ".listeo-listing-card__content__main__title": {
+          "margin": ".45rem 0"
+        },
+        "h2.listeo-listing-card__content__main__title__name": {
+          "font-size": "1.75rem",
+          "line-height": "2.5rem",
+          "text-shadow": "0px 0px 10px #0000002b"
+        }
+      }
+    }
+  },
+  {
+    ".listeo-listing-card.blog": {
+      "position": "relative",
+      "cursor": "pointer",
+      "aspect-ratio": "1/1.35",
+      "@apply hover:z-20": {},
+      ".listeo-listing-card__header": {
+        "height": "100%"
+      },
+      ".listeo-listing-card__content": {
+        "padding": "0",
+        ".listeo-listing-card__content_container": {
+          "display": "flex",
+          "flex-direction": "column",
+          "justify-content": "space-between",
+          "height": "100%",
+          "padding": "2rem 1rem"
+        },
+        "p.listeo-listing-card__content__text": {
+          "font-weight": "100",
+          "margin": "0.5rem"
+        }
+      }
+    }
+  }, 
+
+ {
+   ".listeo-testimonial-card": {
+     "border-radius": "1rem",
+     "box-shadow": "0 10px 20px rgba(0, 0, 0, 0.1)",
+     "overflow": "hidden",
+     "width": "30%",
+     "padding": "1rem",
+     "@apply bg-app-primary cursor-pointer": {},
+     ".listeo-testimonial-card__header__container": {
+       "@apply flex gap-2 items-center": {}
+     },
+     ".listeo-testimonial-card__header__thumbnail": {
+       "position": "relative",
+       "width": "6rem",
+       "height": "6rem",
+       "border-radius": "50%",
+       "border": "2px solid #fff",
+       "overflow": "hidden",
+       "img": {
+         "position": "absolute",
+         "top": "0",
+         "left": "0",
+         "width": "100%",
+         "height": "100%",
+         "object-fit": "cover"
+       }
+     },
+     ".listeo-testimonial-card__header__name": {
+       "margin-left": "1rem",
+       "__text": {
+         "font-weight": "bold",
+         "color": "#fff",
+         "@apply text-[2rem]": {}
+       },
+       ".listeo-testimonial-card__header__name__occupation": {
+         "font-size": "1.05rem",
+         "@apply text-white/60": {}
+       }
+     },
+     ".listeo-testimonial-card__body": {
+       "line-height": "2.5rem",
+       "max-height": "0",
+       "opacity": "0",
+       "@apply transition-medium": {},
+       "&.open": {
+         "opacity": "1"
+       },
+       ".listeo-testimonial-card__body__text": {
+         "font-size": "1rem",
+         "color": "#fff",
+         "padding": "1rem"
+       }
+     },
+     ".listeo-testimonial-card__focus__key-statement": {
+       "display": "inline-block",
+       "padding": "0.5rem 1rem",
+       "font-size": "1.25rem",
+       "font-weight": "bold",
+       "border-radius": "9999px",
+       "margin-bottom": "1rem",
+       "@apply bg-white shadow-2xl text-app-primary text-center": {}
+     },
+     ".listeo-testimonial-card__focus": {
+       "margin-top": "2rem",
+       "@apply flex justify-center": {}
+     }, 
+     ".listeo-testimonial-card__header__name__text" : {
+
+    "font-weight": "bold",
+    "color": "#fff",
+    "@apply text-[2rem]" : {}
+}
+   }
+   
+ }, 
+ {
+  ".listeo-quick-info-card": {
+    "width": "30%",
+    "display": "flex",
+    "flex-direction": "column",
+    "padding": "2rem",
+    "background": "#fff",
+    "align-items": "center",
+    "gap": "2rem",
+    "box-shadow": "0 2px 6px 0 rgba(0, 0, 0, .07)",
+    "@apply transition-medium cursor-pointer hover:listeo-hover" : {}
+ }
+ }
+]

@@ -1,0 +1,19 @@
+[
+  {
+    ".featured-box": {
+      "display": "flex",
+      "gap": ".5rem",
+      "background": "#fff",
+      "width": "fit-content",
+      "padding-left": ".5rem",
+      "padding-right": "2rem",
+      "border-radius": "15px",
+      "padding": ".15rem 1.25rem .15rem .5rem",
+      "align-items": "center",
+      "span.featured-box__text": {
+        "color": "#000000d1",
+        "font-size": "12px"
+      }
+    }
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    ".shopping-cart": {
+      "width": "2.25rem",
+      "height": "2.25rem",
+      "color": "#fff",
+      "display": "flex",
+      "alignItems": "center",
+      "justifyContent": "center",
+      "position": "relative",
+      "cursor": "pointer",
+      "transitionProperty": "all",
+      "transitionDuration": "0.3s",
+      "transitionTimingFunction": "ease-in-out",
+      "borderRadius": "50%",
+      "backgroundColor": "rgba(255, 255, 255, 0.18)"
+    },
+    ".shopping-cart:hover": {
+ 
+     "@apply bg-app-primary text-white": {}
+    },
+    ".shopping-cart:hover .cart-count": {
+      
+      "color": "#fff",
+      "@apply bg-app-primary": {}
+    },
+    ".shopping-cart span.cart-count": {
+      "position": "absolute",
+      "width": "1.5rem",
+      "height": "1.5rem",
+      "display": "flex",
+      "alignItems": "center",
+      "justifyContent": "center",
+      "fontSize": "0.75rem",
+      "transitionProperty": "all",
+      "transitionDuration": "0.3s",
+      "transitionTimingFunction": "ease-in-out",
+      "borderRadius": "50%",
+      "left": "72%",
+      "top": "-.5rem",
+       "@apply bg-app-primary": {}
+    }
+  }
+]

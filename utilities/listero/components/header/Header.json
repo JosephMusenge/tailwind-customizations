@@ -1,0 +1,62 @@
+[
+  {
+    ".listeo-header.site-header": {
+      "@apply h-[800px] relative  bg-app-light flex flex-col": {},
+      ".site-header-overlay": {
+        "@apply opacity-20": {}
+      },
+      ".top-header": {
+        "@apply border-0 border-b border-white/50  border-solid": {},
+        "@apply relative z-[9999999]": {},
+        ".listeo-container": {
+          "@apply h-[85px]": {},
+          "@apply flex items-center gap-8 justify-between": {},
+          ".brand": {
+            "@apply w-[135px] aspect-[3.3/1] -translate-y-1": {},
+            "@apply relative": {}
+          },
+          ".left-side, .right-side": {
+            "@apply flex gap-8 items-center": {}
+          }
+        },
+        ".site-navigation": {
+          ".site-navigation-list": {
+            "@apply flex gap-2": {},
+            "li": {
+              "@apply relative": {},
+              "a": {
+                "@apply flex items-center gap-1": {},
+                "@apply text-white  listeo-pill-button-sm  hover:bg-app-primary transition-quick": {},
+                "@apply px-4": {}
+              },
+              ".sub-menu": {
+                "@apply hidden absolute top-full w-[300%] left-0 rounded shadow-md bg-white m-0": {},
+                "li": {
+                  "@apply my-2": {},
+                  "a": {
+                    "@apply text-black flex justify-between  hover:bg-app-primary hover:text-white rounded-none": {}
+                  },
+                  ".sub-menu": {
+                    "@apply hidden top-0 shadow-lg block left-[95%] w-[100%]": {}
+                  },
+                  "&:hover > .sub-menu": {
+                    "@apply block": {}
+                  }
+                }
+              },
+              "&:hover > .sub-menu": {
+                "@apply block": {}
+              }
+            },
+            "& > li a.active-page": {
+              "@apply bg-app-primary text-white": {}
+            }
+          }
+        }
+      },
+      ".hero-section": {
+        "@apply flex-1 auto-center flex-col relative   z-10 text-white gap-4": {}
+      }
+    }
+  }
+]
